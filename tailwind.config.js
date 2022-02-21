@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'avogg': '#97A6F0',
+        'company': '#FF4E4E'
       },
       fontFamily: {
         'montserrat': ['Montserrat'],
