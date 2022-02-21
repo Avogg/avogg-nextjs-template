@@ -1,10 +1,9 @@
-import Head from 'next/head'
-import Header from '/components/Header';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 font-montserrat">
-      <Header title="Em breve" />
+      <Header title={"Em breve"} />
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <img src="/logo-black.png" className="w-32" />

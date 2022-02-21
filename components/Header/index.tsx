@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function Header(title?: string) {
+export default function Header(title?: any) : any {
     return (
         <Head>
             <title>CMFlores {(title.title) ? "| " + title.title : ""}</title>
