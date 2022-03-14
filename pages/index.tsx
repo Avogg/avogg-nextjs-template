@@ -1,19 +1,18 @@
-import Header from '../components/Header';
+import Head from 'next/head'
+import Header from '/components/Header';
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 font-montserrat">
-      <Header title={"Em breve"} />
+      <Header title="Welcome" />
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <img src="/logo-black.png" className="w-32" />
+        <img src="/logo-min.png" className="w-32 animate-bounce" />
 
-        <p className="mt-10 font-semibold text-4xl">Estaremos operacionais <span className="text-company">em breve</span>!</p>
-        <p className="mt-12 text-xl">A CMFlores está a <span className="text-company">expandir</span> o seu negócio para a <span className="text-company italic">web</span>! Assim a nossa equipa vai ter uma maior presença em todo o país e os clientes, vão poder fazer as suas encomendas de forma mais <span className="text-company">simplificada</span> e <span className="text-company">eficaz</span>.</p>
-        <p className="mt-5">Não se esqueça que ainda nos pode ligar para <a href="tel:+351967764449" className="text-company">+351 967 764 449</a> para fazer as suas encomendas ou saber mais sobre nós!</p>
-
-        <p className="text-4xl font-semibold mt-20">Onde nos encontrar</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24040.73653853978!2d-8.645381264123532!3d41.132516082662676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x271a43df3be3d102!2sCarlos%20Melo%20-%20Com%C3%A9rcio%20de%20Flores%2C%20Lda!5e0!3m2!1sen!2spt!4v1647281421847!5m2!1sen!2spt" height="450" className="border-0 w-screen md:w-full active:text-company mt-10 mb-10" allowFullScreen="" loading="lazy"></iframe>
+        <p className="mt-10 font-semibold text-4xl">The <span className="text-avogg">Avogg</span> template</p>
+        <p className="mt-12 text-xl">This template is already equipped with <a href="https://tailwindcss.com" target="_blank" className="text-avogg">TailwindCSS</a> and uses the <a href="https://www.typescriptlang.org" target="_blank" className="text-avogg">Typescript</a> syntax.</p>
+        <p className="mt-5 text-xl">Remember to follow the code guidelines and create a new future!</p>
+        <p className="mt-5 text-xl">Also, instead of <a href="https://npmjs.org" target="_blank" className="text-avogg">npm</a> use <a href="https://yarnpkg.com/" target="_blank" className="text-avogg">Yarn</a></p>
       </main>
 
       <footer>
